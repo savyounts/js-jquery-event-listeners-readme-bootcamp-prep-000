@@ -12,7 +12,7 @@ function getIt(){
 
 function pressIt(){
   $('input').on('keydown', function(key){
-    if (key.which === 17) {
+    if (key.which === 71) {
       alert ("you have pressed G")
     }
   })
