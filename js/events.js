@@ -4,6 +4,15 @@ function getIt(){
   })
   }
   
+  function frameIt(){
+    $('img').on('load', function(){
+    img.addClassName('tasty')
+  })
+}
+
+function pressIt(){
+  
+}
 
 $(document).ready(function(){
 
